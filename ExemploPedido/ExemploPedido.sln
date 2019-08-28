@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemploPedido.Serveless", "ExemploPedido.Serveless\ExemploPedido.Serveless.csproj", "{B673410D-37FB-4843-A782-74EB7D3FFBBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrations", "Migrations\Migrations.csproj", "{BF58CD2B-C82D-4772-ACEB-EF147849CCE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B673410D-37FB-4843-A782-74EB7D3FFBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B673410D-37FB-4843-A782-74EB7D3FFBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B673410D-37FB-4843-A782-74EB7D3FFBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B673410D-37FB-4843-A782-74EB7D3FFBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF58CD2B-C82D-4772-ACEB-EF147849CCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF58CD2B-C82D-4772-ACEB-EF147849CCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF58CD2B-C82D-4772-ACEB-EF147849CCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF58CD2B-C82D-4772-ACEB-EF147849CCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF51A0EF-E3C6-4A97-94C3-F7266FEF85F7}
+	EndGlobalSection
+EndGlobal
