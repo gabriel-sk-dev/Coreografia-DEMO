@@ -19,7 +19,7 @@ namespace ExemploPedido.Serveless.Functions
         {
             logger.LogInformation($"Gatilho QueueTriggerPrepararParaEnvio recebido");
             var comando = Encoding.UTF8.GetString(message.Body).ToObject<PagamentoAprovadoEvento>();
-
+            logger.LogInformation($"Pedido {comando.PedidoId} está sendo preparado para envio");
         }
     }
 }
